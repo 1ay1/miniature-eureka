@@ -65,7 +65,6 @@ CMakeFiles/
 cmake_install.cmake
 CMakeScripts/
 Testing/
-Makefile
 cmake_uninstall.cmake
 CPackConfig.cmake
 CPackSourceConfig.cmake
