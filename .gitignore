@@ -1,0 +1,111 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Generated files
+*.gir
+*.typelib
+*.vapi
+
+# Temporary files created by g-ir-scanner
+tmp-introspect*/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Package files
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Autotools generated files (if using autotools)
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+missing
+compile
+config.h.in
+config.h
+config.log
+config.status
+stamp-h1
+.deps/
+.libs/
+libtool
+ltmain.sh
+
+# CMake generated files (if using cmake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeScripts/
+Testing/
+Makefile
+cmake_uninstall.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# pkg-config files (generated)
+*.pc
+
+# Documentation generated files
+docs/
+doc/html/
+doc/xml/
+gtk-doc.make
+
+# Core dumps
+core
+core.*
+
+# Backup files
+*.bak
+*.orig
+*.rej
+
+# Test coverage files
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+coverage/
+
+# Valgrind output
+*.valgrind
+massif.out.*
+cachegrind.out.*
+
+# Static analysis output
+cppcheck.xml
+scan-build-*/
+
+# GDB history
+.gdb_history
+
+# Installation staging directory
+DESTDIR/

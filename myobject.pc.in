@@ -1,0 +1,14 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+girdir=@datadir@/gir-1.0
+typelibdir=@libdir@/girepository-1.0
+
+Name: myobject
+Description: Example GObject library with introspection support
+Version: @VERSION@
+URL: https://example.com/myobject
+Requires: glib-2.0 >= 2.50, gobject-2.0 >= 2.50
+Libs: -L${libdir} -lmyobject
+Cflags: -I${includedir}
